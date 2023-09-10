@@ -5,6 +5,7 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 65em;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -30,4 +31,8 @@ a:hover {
 a:visited {
     color: #A17751;
     text-decoration: none;
+}
+
+nav.menu {
+    font-size: 1.1em;
 }
