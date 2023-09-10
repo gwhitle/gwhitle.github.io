@@ -3,6 +3,8 @@ body {
     background-color: #e5c293;
     color: #393E41;
     text-align: center;
+    margin: 0 auto;
+    max-width: 65em;
 }
 
 h1 {

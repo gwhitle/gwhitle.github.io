@@ -2,6 +2,8 @@ body {
     font-family: monospace;
     background-color: bisque;
     text-align: center;
+    margin: 0 auto;
+    max-width: 65em;
 }
 
 h1 {
