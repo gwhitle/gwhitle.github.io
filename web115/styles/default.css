@@ -1,5 +1,7 @@
 body {
+    font-family: monospace;
     background-color: bisque;
+    text-align: center;
 }
 
 h1 {
