@@ -39,15 +39,18 @@ footer {
 
 a:link {
     color: #B94527;
+    text-decoration: none;
 }
 
 a:hover {
     color: #F8B45C;
+    text-shadow: .1em .1em .1em #393E41;
     text-decoration: underline;
 }
 
 a:visited {
     color: #A17751;
+    text-decoration: none;
 }
 
 .tagline {

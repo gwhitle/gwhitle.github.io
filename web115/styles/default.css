@@ -1,6 +1,7 @@
 body {
     font-family: monospace;
-    background-color: bisque;
+    background-color: #e5c293;
+    color: #393E41;
     text-align: center;
     margin: 0 auto;
     max-width: 65em;
@@ -12,9 +13,16 @@ h1 {
 
 a:link {
     color: #B94527;
+    text-decoration: none;
 }
 
 a:hover {
     color: #F8B45C;
+    text-shadow: .1em .1em .1em #393E41;
     text-decoration: underline;
+}
+
+a:visited {
+    color: #A17751;
+    text-decoration: none;
 }
