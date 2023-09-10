@@ -11,6 +11,11 @@ h1 {
     font-size: 150%;
 }
 
+ul {
+    padding-left: 20em;
+    padding-right: 15em;
+}
+
 a:link {
     color: #B94527;
     text-decoration: none;
