@@ -9,3 +9,12 @@ body {
 h1 {
     font-size: 150%;
 }
+
+a:link {
+    color: #B94527;
+}
+
+a:hover {
+    color: #F8B45C;
+    text-decoration: underline;
+}

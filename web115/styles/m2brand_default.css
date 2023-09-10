@@ -37,6 +37,15 @@ footer {
     font-size: 1.2em;
 }
 
+a:link {
+    color: #B94527;
+}
+
+a:hover {
+    color: #F8B45C;
+    text-decoration: underline;
+}
+
 .tagline {
     font-size: 1.3em;
 }
