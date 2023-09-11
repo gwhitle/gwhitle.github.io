@@ -42,5 +42,9 @@ figcaption.waterfallImg {
 }
 
 ul.web115Index {
-list-style: none;
+    list-style: none;
+}
+
+ul.web115Index li {
+    max-width: 25em
 }
