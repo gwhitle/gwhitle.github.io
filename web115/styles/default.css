@@ -28,8 +28,8 @@ a:visited {
 }
 
 a:hover {
-    color: #F8B45C;
-    text-shadow: .1em .1em .1em #393E41;
+    color: #FFEB3B;
+    text-shadow: .1em .1em .4em #393E41;
     text-decoration: underline;
 }
 
