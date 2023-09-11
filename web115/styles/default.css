@@ -4,7 +4,8 @@ body {
     color: #393E41;
     text-align: center;
     margin: 0 auto;
-    max-width: 65em;
+    min-width: 27em;
+    max-width: 159em;
     font-size: 1.2em;
 }
 
@@ -62,3 +63,83 @@ ul.ulToc li {
     background-color: #F8B45C;
     margin-bottom: .5em;
 }
+
+nav.menu a{
+    display:inline-block;
+    border: .07em solid #B94527;
+    border-radius: 5em;
+    background-color: #F8B45C;
+    margin: .5em;
+    padding: .3em;
+}
+
+/*-------------m2 brand styles-------------*/
+h1.h1Brand {
+    font-family: 'Courier New';
+    font-size: 2.3em;
+    background-color: #a17751;
+    color: #f8b45c;
+    text-shadow: .1em .1em .1em #393E41;
+}
+ul.colorsList{
+    padding: 1em;
+    display: flex;
+}
+ul.colorsList li{
+    width: 100%;
+    margin: .3em;
+    font-size: 1.3em;
+}
+.tagline {
+    font-size: 1.3em;
+}
+
+.couriernew {
+    font-family: 'Courier New';
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.colorsList {
+    list-style: none;
+}
+
+.c-bgcolor {
+    width: 7em;
+    height: 7em;
+    background-color: #E5C293;
+    border: .3em solid #393E41;
+}
+
+.c-accent1 {
+    width: 7em;
+    height: 7em;
+    background-color: #A17751;
+    border: .3em solid #393E41;
+}
+
+.c-accent2 {
+    width: 7em;
+    height: 7em;
+    background-color: #b94527;
+    border: .3em solid #393E41;
+}
+
+.c-titles {
+    width: 7em;
+    height: 7em;
+    background-color: #f8b45c;
+    border: .3em solid #393E41;
+}
+
+.c-text {
+    width: 7em;
+    height: 7em;
+    background-color: #393E41;
+    border: .3em solid #f8b45c;
+    color: #f8b45c;
+}
+/*-------------End m2 brand styles-------------*/
+
