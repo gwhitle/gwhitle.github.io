@@ -5,6 +5,7 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 65em;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -106,6 +107,6 @@ a:visited {
     color: #f8b45c;
 }
 
-nav.menu{
+nav.menu {
     font-size: 1.1em;
 }
