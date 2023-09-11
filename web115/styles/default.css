@@ -48,3 +48,17 @@ ul.web115Index {
 ul.web115Index li {
     max-width: 25em
 }
+
+ul.ulToc {
+    list-style: none;
+    font-size: 1.3em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+ul.ulToc li {
+    max-width: 25em;
+    border-radius: 5em;
+    background-color: #F8B45C;
+    margin-bottom: .5em;
+}
