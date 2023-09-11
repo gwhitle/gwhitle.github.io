@@ -50,9 +50,8 @@ a:visited {
 }
 
 a:hover {
-    color: #FFEB3B;
-    text-shadow: .1em .1em .4em #393E41;
     text-decoration: underline;
+    text-decoration-color: #393E41;
 }
 
 .tagline {
