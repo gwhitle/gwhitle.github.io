@@ -44,15 +44,15 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: #d1bba8;
+    text-decoration: none;
+}
+
 a:hover {
     color: #F8B45C;
     text-shadow: .1em .1em .1em #393E41;
     text-decoration: underline;
-}
-
-a:visited {
-    color: #A17751;
-    text-decoration: none;
 }
 
 .tagline {
