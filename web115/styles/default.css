@@ -41,7 +41,6 @@ figcaption.waterfallImg {
     font-size: .9em;
 }
 
-li.web115Index {
-    padding-left: 28em;
-    padding-right: 26em;
+ul.web115Index {
+list-style: none;
 }
