@@ -12,6 +12,7 @@ body {
 h1 {
     font-size: 2.3em;
 }
+
 a:link {
     color: #B94527;
     text-decoration: none;
@@ -31,7 +32,14 @@ nav.menu {
     font-size: 1.1em;
 }
 
-/*-------------index styles-------------*/
+/*-------------io index styles-------------*/
+ul.web115Index {
+    list-style: none;
+}
+
+/*-------------End io index styles-------------*/
+
+/*-------------web115 index styles-------------*/
 nav.mainNav a {
     display: inline-block;
     border: .07em solid #B94527;
@@ -47,7 +55,7 @@ section.indexParagraph1 {
     text-align: left;
 }
 
-/*-------------End index styles-------------*/
+/*-------------End web115 index styles-------------*/
 
 /*-------------introduction styles-------------*/
 figcaption.waterfallImg {
