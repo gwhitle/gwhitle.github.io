@@ -12,12 +12,6 @@ body {
 h1 {
     font-size: 2.3em;
 }
-
-ul {
-    padding-left: 20em;
-    padding-right: 15em;
-}
-
 a:link {
     color: #B94527;
     text-decoration: none;
@@ -37,41 +31,45 @@ nav.menu {
     font-size: 1.1em;
 }
 
-figcaption.waterfallImg {
-    font-style: italic;
-    font-size: .9em;
-}
-
-ul.web115Index {
-    list-style: none;
-}
-
-ul.web115Index li {
-    max-width: 25em
-}
-
-ul.ulToc {
-    list-style: none;
-    font-size: 1.3em;
-    padding-left: 15em;
-    padding-right: 15em;
-}
-
-ul.ulToc li {
-    max-width: 25em;
-    border-radius: 5em;
-    background-color: #F8B45C;
-    margin-bottom: .5em;
-}
-
-nav.menu a{
-    display:inline-block;
+/*-------------index styles-------------*/
+nav.mainNav a {
+    display: inline-block;
     border: .07em solid #B94527;
     border-radius: 5em;
     background-color: #F8B45C;
     margin: .5em;
     padding: .3em;
 }
+
+section.indexParagraph1 {
+    padding: 1em;
+    padding-left: 20em;
+    text-align: left;
+}
+
+/*-------------End index styles-------------*/
+
+/*-------------introduction styles-------------*/
+figcaption.waterfallImg {
+    font-style: italic;
+    font-size: .9em;
+}
+
+ul.introList {
+    text-align: left;
+    padding-left: 20em;
+    padding-right: 15em;
+}
+
+/*-------------End introduction styles-------------*/
+
+/*-------------contract styles-------------*/
+section.contractParagraph1 {
+    padding: 5em;
+    text-align: left;
+}
+
+/*-------------End contract styles-------------*/
 
 /*-------------m2 brand styles-------------*/
 h1.h1Brand {
@@ -81,15 +79,18 @@ h1.h1Brand {
     color: #f8b45c;
     text-shadow: .1em .1em .1em #393E41;
 }
-ul.colorsList{
+
+ul.colorsList {
     padding: 1em;
     display: flex;
 }
-ul.colorsList li{
+
+ul.colorsList li {
     width: 100%;
     margin: .3em;
     font-size: 1.3em;
 }
+
 .tagline {
     font-size: 1.3em;
 }
@@ -141,5 +142,5 @@ ul.colorsList li{
     border: .3em solid #f8b45c;
     color: #f8b45c;
 }
-/*-------------End m2 brand styles-------------*/
 
+/*-------------End m2 brand styles-------------*/
