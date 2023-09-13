@@ -28,7 +28,7 @@ a:hover {
     text-decoration-color: #393E41;
 }
 
-header nav a{
+header nav a {
     display: inline-block;
     border: .07em solid #B94527;
     border-radius: 5em;
@@ -41,8 +41,7 @@ header nav a{
 
 
 div#indexParagraph1 {
-    padding: 1em;
-    padding-left: 20em;
+    margin: 3em 7em;
     text-align: left;
 }
 
@@ -56,15 +55,14 @@ figcaption.waterfallImg {
 
 ul#introList {
     text-align: left;
-    padding-left: 20em;
-    padding-right: 15em;
+    margin: 3em 7em;
 }
 
 /*-------------End introduction styles-------------*/
 
 /*-------------contract styles-------------*/
 div#contractParagraph1 {
-    padding: 5em;
+    margin: 3em 7em;
     text-align: left;
 }
 
@@ -77,6 +75,11 @@ div#contractParagraph1 {
     background-color: #a17751;
     color: #f8b45c;
     text-shadow: .1em .1em .1em #393E41;
+}
+
+div#brandParagraph1{
+    margin: 3em 7em;
+    text-align: left;
 }
 
 ul#colorsList {
