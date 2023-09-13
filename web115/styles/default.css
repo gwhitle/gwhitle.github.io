@@ -78,7 +78,7 @@ section.contractParagraph1 {
 /*-------------End contract styles-------------*/
 
 /*-------------m2 brand styles-------------*/
-h1.h1Brand {
+#h1Brand {
     font-family: 'Courier New';
     font-size: 2.3em;
     background-color: #a17751;
@@ -86,62 +86,62 @@ h1.h1Brand {
     text-shadow: .1em .1em .1em #393E41;
 }
 
-ul.colorsList {
+ul#colorsList {
     padding: 1em;
     display: flex;
 }
 
-ul.colorsList li {
+ul#colorsList li {
     width: 100%;
     margin: .3em;
     font-size: 1.3em;
 }
 
-.tagline {
+#brandTagline {
     font-size: 1.3em;
 }
 
-.couriernew {
+#couriernew {
     font-family: 'Courier New';
 }
 
-.monospace {
+#monospace {
     font-family: monospace;
 }
 
-.colorsList {
+#colorsList {
     list-style: none;
 }
 
-.c-bgcolor {
+#c-bgcolor {
     width: 7em;
     height: 7em;
     background-color: #E5C293;
     border: .3em solid #393E41;
 }
 
-.c-accent1 {
+#c-accent1 {
     width: 7em;
     height: 7em;
     background-color: #A17751;
     border: .3em solid #393E41;
 }
 
-.c-accent2 {
+#c-accent2 {
     width: 7em;
     height: 7em;
     background-color: #b94527;
     border: .3em solid #393E41;
 }
 
-.c-titles {
+#c-titles {
     width: 7em;
     height: 7em;
     background-color: #f8b45c;
     border: .3em solid #393E41;
 }
 
-.c-text {
+#c-text {
     width: 7em;
     height: 7em;
     background-color: #393E41;
