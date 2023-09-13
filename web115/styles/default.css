@@ -28,8 +28,13 @@ a:hover {
     text-decoration-color: #393E41;
 }
 
-nav.menu {
-    font-size: 1.1em;
+header nav a{
+    display: inline-block;
+    border: .07em solid #B94527;
+    border-radius: 5em;
+    background-color: #F8B45C;
+    margin: .5em;
+    padding: .3em;
 }
 
 /*-------------io index styles-------------*/
@@ -40,14 +45,7 @@ ul.web115Index {
 /*-------------End io index styles-------------*/
 
 /*-------------web115 index styles-------------*/
-nav.mainNav a {
-    display: inline-block;
-    border: .07em solid #B94527;
-    border-radius: 5em;
-    background-color: #F8B45C;
-    margin: .5em;
-    padding: .3em;
-}
+
 
 section.indexParagraph1 {
     padding: 1em;
