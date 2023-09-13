@@ -37,17 +37,10 @@ header nav a{
     padding: .3em;
 }
 
-/*-------------io index styles-------------*/
-ul.web115Index {
-    list-style: none;
-}
-
-/*-------------End io index styles-------------*/
-
 /*-------------web115 index styles-------------*/
 
 
-section.indexParagraph1 {
+div#indexParagraph1 {
     padding: 1em;
     padding-left: 20em;
     text-align: left;
@@ -61,7 +54,7 @@ figcaption.waterfallImg {
     font-size: .9em;
 }
 
-ul.introList {
+ul#introList {
     text-align: left;
     padding-left: 20em;
     padding-right: 15em;
@@ -70,7 +63,7 @@ ul.introList {
 /*-------------End introduction styles-------------*/
 
 /*-------------contract styles-------------*/
-section.contractParagraph1 {
+div#contractParagraph1 {
     padding: 5em;
     text-align: left;
 }
