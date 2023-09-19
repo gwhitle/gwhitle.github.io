@@ -144,5 +144,30 @@ ul#colorsList li {
     border: .3em solid #f8b45c;
     color: #f8b45c;
 }
-
 /*-------------End m2 brand styles-------------*/
+
+/*-------------fizzbuzz styles-------------*/
+#fizzLegend{
+    width: 33%;
+    padding: .4em 0em;
+    background-color: #B94527;
+    color: #F8B45C;
+    text-shadow: .1em .1em .1em #222425;
+    font-size: 1.2em;
+    font-weight:bold;
+    border: #393E41 solid .2em;
+}
+div#loopColumns p:first-child {
+    margin: 0;
+}
+
+div#loopColumns {
+    margin: 2em;
+    column-count: 3;
+}
+
+p#loopText {
+    text-align: left;
+    line-height: 2.5em;
+}
+/*-------------End fizzbuzz styles-------------*/
