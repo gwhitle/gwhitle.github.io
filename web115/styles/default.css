@@ -8,11 +8,22 @@ body {
     max-width: 159em;
     font-size: 1.2em;
 }
-
-h1 {
-    margin: 1em;
-    font-size: 2.2em;
+#h1Main{
+    margin: 1em auto .5;
+    font-size: 2em;
 }
+#h2Main, #greeting{
+    margin: .5em 8em .4em;
+    padding: .4em;
+    font-family: 'Courier New';
+    font-size: 1.3em;
+    background-color: #a17751;
+    color: #f8b45c;
+    text-shadow: .1em .1em .1em #393E41;
+    border: .07em #393E41 solid ;
+    border-radius: 5em;
+}
+
 /*-------------link styles-------------*/
 a:link {
     color: #B94527;
@@ -37,10 +48,6 @@ header nav a:hover {
 /*-------------End link styles-------------*/
 
 /*-------------header and footer styles-------------*/
-header nav hr{
-        margin: 1.3em 5em 3em;
-        border: .15em solid #795548;
-}
 
 header nav a {
     width: 9em;
@@ -50,7 +57,7 @@ header nav a {
     border: .22em solid #B94527;
     border-radius: 5em;
     background-color: #F8B45C;
-    margin: .5em;
+    margin: .5em 0em .5em;
     padding: .3em;
 }
 
@@ -92,14 +99,6 @@ div#contractParagraph1 {
 /*-------------End contract styles-------------*/
 
 /*-------------m2 brand styles-------------*/
-#h1Brand {
-    font-family: 'Courier New';
-    font-size: 2.3em;
-    background-color: #a17751;
-    color: #f8b45c;
-    text-shadow: .1em .1em .1em #393E41;
-}
-
 div#brandParagraph1{
     margin: 3em 7em;
     text-align: left;
