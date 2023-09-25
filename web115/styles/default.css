@@ -8,11 +8,14 @@ body {
     max-width: 159em;
     font-size: 1.2em;
 }
-#h1Main{
-    margin: 1em auto .5;
+
+#h1Main {
+    margin: 1em auto .5em;
     font-size: 2em;
 }
-#h2Main, #greeting{
+
+#h2Main,
+#greeting {
     margin: .5em 8em .4em;
     padding: .4em;
     font-family: 'Courier New';
@@ -20,7 +23,7 @@ body {
     background-color: #a17751;
     color: #f8b45c;
     text-shadow: .1em .1em .1em #393E41;
-    border: .07em #393E41 solid ;
+    border: .07em #393E41 solid;
     border-radius: 5em;
 }
 
@@ -45,13 +48,14 @@ header nav a:hover {
     border: .22em solid #795548;
     text-decoration: none;
 }
+
 /*-------------End link styles-------------*/
 
 /*-------------header and footer styles-------------*/
 
 header nav a {
     width: 9em;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 1em;
     display: inline-block;
     border: .22em solid #B94527;
@@ -61,7 +65,7 @@ header nav a {
     padding: .3em;
 }
 
-footer nav hr{
+footer nav hr {
     margin: 2em 5em;
     border: .15em solid #795548;
 }
@@ -99,7 +103,7 @@ div#contractParagraph1 {
 /*-------------End contract styles-------------*/
 
 /*-------------m2 brand styles-------------*/
-div#brandParagraph1{
+div#brandParagraph1 {
     margin: 3em 7em;
     text-align: left;
 }
@@ -166,19 +170,21 @@ ul#colorsList li {
     border: .3em solid #f8b45c;
     color: #f8b45c;
 }
+
 /*-------------End m2 brand styles-------------*/
 
 /*-------------fizzbuzz styles-------------*/
-#fizzLegend{
+#fizzLegend {
     width: 33%;
     padding: .4em 0em;
     background-color: #B94527;
     color: #F8B45C;
     text-shadow: .1em .1em .1em #222425;
     font-size: 1.2em;
-    font-weight:bold;
+    font-weight: bold;
     border: #393E41 solid .2em;
 }
+
 div#loopColumns p:first-child {
     margin: 0;
 }
@@ -192,4 +198,5 @@ p#loopText {
     text-align: left;
     line-height: 2.5em;
 }
+
 /*-------------End fizzbuzz styles-------------*/
