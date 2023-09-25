@@ -10,16 +10,17 @@ body {
 }
 
 h1 {
-    font-size: 2.3em;
+    margin: 1em;
+    font-size: 2.2em;
 }
-
+/*-------------link styles-------------*/
 a:link {
     color: #B94527;
     text-decoration: none;
 }
 
 a:visited {
-    color: #795548;
+    color: #B94527;
     text-decoration: none;
 }
 
@@ -28,15 +29,37 @@ a:hover {
     text-decoration-color: #393E41;
 }
 
+header nav a:hover {
+    color: #795548;
+    border: .22em solid #795548;
+    text-decoration: none;
+}
+/*-------------End link styles-------------*/
+
+/*-------------header and footer styles-------------*/
+header nav hr{
+        margin: 1.3em 5em 3em;
+        border: .15em solid #795548;
+}
+
 header nav a {
+    width: 9em;
+    font-weight:bold;
+    font-size: 1em;
     display: inline-block;
-    border: .07em solid #B94527;
+    border: .22em solid #B94527;
     border-radius: 5em;
     background-color: #F8B45C;
     margin: .5em;
     padding: .3em;
 }
 
+footer nav hr{
+    margin: 2em 5em;
+    border: .15em solid #795548;
+}
+
+/*-------------End header and footer styles-------------*/
 /*-------------web115 index styles-------------*/
 
 
