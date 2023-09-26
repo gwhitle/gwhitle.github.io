@@ -9,6 +9,13 @@ body {
     font-size: 1.2em;
 }
 
+#h1Main,
+#h2Main,
+#greeting,
+a:link {
+    letter-spacing: .08em;
+}
+
 #h1Main {
     margin: 1em auto .5em;
     font-size: 2em;
@@ -29,12 +36,12 @@ body {
 
 /*-------------link styles-------------*/
 a:link {
-    color: #B94527;
+    color: #795548;
     text-decoration: none;
 }
 
 a:visited {
-    color: #B94527;
+    color: #795548;
     text-decoration: none;
 }
 
@@ -44,8 +51,8 @@ a:hover {
 }
 
 header nav a:hover {
-    color: #795548;
-    border: .22em solid #795548;
+    color: #B94527;
+    border: .22em solid #B94527;
     text-decoration: none;
 }
 
@@ -58,7 +65,7 @@ header nav a {
     font-weight: bold;
     font-size: 1em;
     display: inline-block;
-    border: .22em solid #B94527;
+    border: .22em solid #795548;
     border-radius: 5em;
     background-color: #F8B45C;
     margin: .5em 0em .5em;
