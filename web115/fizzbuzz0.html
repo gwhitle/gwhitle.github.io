@@ -12,7 +12,8 @@
 <body>
     <div data-include="components/header.html"></div>
     <main>
-        <h2 id="greeting">Welcome to Digital Dungeons</h2>
+        <h2 id="h2Main">FizzBuzz0</h2>
+        <h3 id="greeting">Welcome to Digital Dungeons</h2>
         <form>
             <fieldset>
                 <legend id="fizzLegend">Please enter your name</legend>
@@ -23,15 +24,15 @@
                 <p>
                     <label for="middleInitial">Middle Initial:</label>
                     <input type="text" id="middleInitial" name="middleInitial"
-                        placeholder="Enter your middle initial here">
+                        placeholder="Enter your middle initial here" maxlength="1">
                 </p>
                 <p>
                     <label for="lastName">Last Name:</label>
                     <input type="text" id="lastName" name="lastName" placeholder="Enter your last name here">
                 </p>
                 <p>
-                    <input type="reset" id="resetButton" name="resetButton" value="Reset">
                     <input type="button" id="submitButton" name="submitButton" value="Submit">
+                    <input type="reset" id="resetButton" name="resetButton" value="Reset">
                 </p>
             </fieldset>
         </form>

@@ -21,8 +21,7 @@ a:link {
     font-size: 2em;
 }
 
-#h2Main,
-#greeting {
+#h2Main{
     margin: .5em 8em .4em;
     padding: .4em;
     font-family: 'Courier New';
@@ -181,15 +180,8 @@ ul#colorsList li {
 /*-------------End m2 brand styles-------------*/
 
 /*-------------fizzbuzz styles-------------*/
-#fizzLegend {
-    width: 33%;
-    padding: .4em 0em;
-    background-color: #B94527;
-    color: #F8B45C;
-    text-shadow: .1em .1em .1em #222425;
-    font-size: 1.2em;
-    font-weight: bold;
-    border: #393E41 solid .2em;
+fieldset{
+    border: none;
 }
 
 div#loopColumns p:first-child {

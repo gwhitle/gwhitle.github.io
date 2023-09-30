@@ -4,10 +4,18 @@ function getName() {
         middleInitial = document.getElementById('middleInitial').value,
         lastName = document.getElementById('lastName').value;
 
-    /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
-    document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
 
-    //create loop to output text lines, 1-125
+    //Greeting if else
+    if(middleInitial !== ''){
+        /*assign html id:greeting equal to old greeting with additional input firstName, lastName*/
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
+    }
+    else{
+          /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
+    document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName;
+    };
+  
+    //create loop to output text lines
     //placeholder for loopOutput text from function
     let loopOutput = '';
     //prompt user to enter how high to count, assigns input to counterLimit
@@ -40,6 +48,10 @@ document.getElementById('resetButton').addEventListener('click', resetPage);
 
 
 /* Not In Use - part 1 saved code
+  assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName
+  document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
+
+
     //create output text lines, 1-125
     let loopOutput = '';
     for (let counter = 1; counter < 126; counter++) {
