@@ -21,7 +21,7 @@ a:link {
     font-size: 2em;
 }
 
-#h2Main{
+#h2Main {
     margin: .5em 8em .4em;
     padding: .4em;
     font-family: 'Courier New';
@@ -74,6 +74,10 @@ header nav a {
 footer nav hr {
     margin: 2em 5em;
     border: .15em solid #795548;
+}
+
+footer a {
+    padding-right: 2em;
 }
 
 /*-------------End header and footer styles-------------*/
@@ -180,7 +184,7 @@ ul#colorsList li {
 /*-------------End m2 brand styles-------------*/
 
 /*-------------fizzbuzz styles-------------*/
-fieldset{
+fieldset {
     border: none;
 }
 
