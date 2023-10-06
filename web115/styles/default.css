@@ -198,8 +198,9 @@ div#loopColumns {
 }
 
 p#loopText {
-    text-align: left;
     line-height: 2.5em;
 }
+
+
 
 /*-------------End fizzbuzz styles-------------*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina W's Gawky Wraith | WEB115 | Fizz Buzz 2</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/fizzbuzz2.js" defer></script>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2 id="h2Main">FizzBuzz 2</h2>
+        <h3 id="greeting">Welcome to Digital Dungeons</h2>
+            <form>
+                <fieldset>
+                    <legend id="fizzLegend">Please enter your name</legend>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here">
+                    </p>
+                    <p>
+                        <label for="middleInitial">Middle Initial:</label>
+                        <input type="text" id="middleInitial" name="middleInitial"
+                            placeholder="Enter your middle initial here" maxlength="1">
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name here">
+                    </p>
+                    <p>
+                        <input type="button" id="submitButton" name="submitButton" value="Submit">
+                        <input type="reset" id="resetButton" name="resetButton" value="Reset">
+                    </p>
+                </fieldset>
+            </form>
+            <div id="loopColumns">
+                <p id="loopText"></p>
+            </div>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+</body>
+
+</html>
