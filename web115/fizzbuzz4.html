@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina W's Gawky Wraith | WEB115 | Fizz Buzz 4</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/fizzbuzz4.js" defer></script>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2 id="h2Main">FizzBuzz 4</h2>
+        <h3 id="greeting">Welcome to Digital Dungeons</h3>
+        <form>
+            <fieldset>
+                <legend id="fizzLegend">Please enter your name</legend>
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here">
+                </p>
+                <p>
+                    <label for="middleInitial">Middle Initial:</label>
+                    <input type="text" id="middleInitial" name="middleInitial"
+                        placeholder="Enter your middle initial here" maxlength="1">
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name here">
+                </p>
+                <p>
+                    <label for="firstDivisor">First Divisor:</label>
+                    <input type="number" id="firstDivisor" name="firstDivisor" value="3">
+                </p>
+                <p>
+                    <label for="secondDivisor">Second Divisor:</label>
+                    <input type="number" id="secondDivisor" name="secondDivisor" value="5">
+                </p>
+                <p>
+                    <label for="thirdDivisor">Third Divisor:</label>
+                    <input type="number" id="thirdDivisor" name="thirdDivisor" value="7">
+                </p>
+                <p>
+                    <label for="firstDivisorOutput">First Output:</label>
+                    <input type="text" id="firstDivisorOutput" name="firstDivisorOutput"
+                        value="Brawl">
+                </p>
+                <p>
+                    <label for="secondDivisorOutput">Second Output:</label>
+                    <input type="text" id="secondDivisorOutput" name="secondDivisorOutput"
+                        value="Crawl">
+                </p>
+                <p>
+                    <label for="thirdDivisorOutput">Third Output:</label>
+                    <input type="text" id="thirdDivisorOutput" name="thirdDivisorOutput"
+                        value="Loot">
+                </p>
+                <p>
+                    <label for="countTotal">Count to:</label>
+                    <input type="number" id="countTotal" name="countTotal" value="125">
+                </p>
+                <p>
+                    <label for="defaultOutput">Default Output:</label>
+                    <input type="text" id="defaultOutput" name="defaultOutput" value="Dungeon">
+                </p>
+                <p>
+                    <input type="button" id="submitButton" name="submitButton" value="Submit">
+                    <input type="reset" id="resetButton" name="resetButton" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+        <div id="loopColumns">
+            <p id="loopText"></p>
+        </div>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+</body>
+
+</html>

@@ -55,6 +55,24 @@ header nav a:hover {
     text-decoration: none;
 }
 
+.fizzMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.fizzItems {
+    top: 3em;
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 222, 179);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+.fizzMenu:hover .fizzItems {
+    display: block;
+}
+
 /*-------------End link styles-------------*/
 
 /*-------------header and footer styles-------------*/
@@ -185,7 +203,16 @@ ul#colorsList li {
 
 /*-------------fizzbuzz styles-------------*/
 fieldset {
+    margin-top: 1.5em;
     border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+fieldset p {
+    margin-top: 1.5em;
+    flex: 1 0 30%;
 }
 
 div#loopColumns p:first-child {
