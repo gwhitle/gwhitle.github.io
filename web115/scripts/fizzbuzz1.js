@@ -24,10 +24,10 @@ function getName() {
             loopOutput += `<p> ${counter}. Brawl Crawl</p>`;
         }
         else if (counter % 3 == 0) {
-            loopOutput += `<p> ${counter}. Crawl</p>`;
+            loopOutput += `<p> ${counter}. Brawl</p>`;
         }
         else if (counter % 5 == 0) {
-            loopOutput += `<p> ${counter}. Brawl</p>`;
+            loopOutput += `<p> ${counter}. Crawl</p>`;
         }
         else {
             loopOutput += `<p> ${counter}. Dungeon</p>`;

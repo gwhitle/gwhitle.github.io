@@ -32,10 +32,10 @@ function getName() {
             loopOutput += `<p> ${counter}. Brawl Crawl</p>`;
         }
         else if (checkDivision(counter, firstDivisor)) {
-            loopOutput += `<p> ${counter}. Crawl</p>`;
+            loopOutput += `<p> ${counter}. Brawl</p>`;
         }
         else if (checkDivision(counter, secondDivisor)) {
-            loopOutput += `<p> ${counter}. Brawl</p>`;
+            loopOutput += `<p> ${counter}. Crawl</p>`;
         }
         else {
             loopOutput += `<p> ${counter}. Dungeon</p>`;
