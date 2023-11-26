@@ -49,10 +49,12 @@ a:hover {
     text-decoration-color: #393E41;
 }
 
-header nav a:hover {
+header nav a:hover,
+#homeLogo img:hover {
     color: #B94527;
-    border: .22em solid #B94527;
+    border: solid #B94527;
     text-decoration: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .fizzMenu {
@@ -65,7 +67,6 @@ header nav a:hover {
     display: none;
     position: absolute;
     background-color: rgb(245, 222, 179);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 1em;
 }
 
@@ -76,17 +77,27 @@ header nav a:hover {
 /*-------------End link styles-------------*/
 
 /*-------------header and footer styles-------------*/
+header nav a,
+#homeLogo img {
+    border: solid #795548;
+    border-radius: 5em;
+    background-color: #F8B45C;
+}
 
 header nav a {
     width: 9em;
     font-weight: bold;
     font-size: 1em;
     display: inline-block;
-    border: .22em solid #795548;
-    border-radius: 5em;
-    background-color: #F8B45C;
     margin: .5em .6em .5em;
     padding: .3em;
+}
+
+#homeLogo {
+    width: 5.4em;
+    padding: 0;
+    vertical-align: -.7em;
+    margin-right: 1em;
 }
 
 footer nav hr {
