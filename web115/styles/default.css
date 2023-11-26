@@ -9,19 +9,24 @@ body {
     font-size: 1.2em;
 }
 
-#h1Main,
-#h2Main,
+main div:first-of-type, ul#introList{
+    text-align: left;
+    margin: 3em 7em;
+}
+
+h1,
+h2,
 #greeting,
 a:link {
     letter-spacing: .08em;
 }
 
-#h1Main {
-    margin: 1em auto .5em;
+h1 {
+    margin: 1em auto 0em;
     font-size: 2em;
 }
 
-#h2Main {
+h2 {
     margin: .5em 8em .4em;
     padding: .4em;
     font-family: 'Courier New';
@@ -31,6 +36,10 @@ a:link {
     text-shadow: .1em .1em .1em #393E41;
     border: .07em #393E41 solid;
     border-radius: 5em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 /*-------------link styles-------------*/
@@ -93,6 +102,12 @@ header nav a {
     padding: .3em;
 }
 
+header p:first-of-type {
+    margin-top: 0;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
 #homeLogo {
     width: 5.4em;
     padding: 0;
@@ -106,46 +121,23 @@ footer nav hr {
 }
 
 footer a {
-    padding-right: 2em;
+    padding: 0em 2em;
+}
+
+#validation_link_html,
+#validation_link_css {
+    padding: 0 !important;
 }
 
 /*-------------End header and footer styles-------------*/
-/*-------------web115 index styles-------------*/
-
-
-div#indexParagraph1 {
-    margin: 3em 7em;
-    text-align: left;
-}
-
-/*-------------End web115 index styles-------------*/
-
 /*-------------introduction styles-------------*/
 figcaption.waterfallImg {
     font-style: italic;
     font-size: .9em;
 }
-
-ul#introList {
-    text-align: left;
-    margin: 3em 7em;
-}
-
 /*-------------End introduction styles-------------*/
-
-/*-------------contract styles-------------*/
-div#contractParagraph1 {
-    margin: 3em 7em;
-    text-align: left;
-}
-
-/*-------------End contract styles-------------*/
-
 /*-------------m2 brand styles-------------*/
-div#brandParagraph1 {
-    margin: 3em 7em;
-    text-align: left;
-}
+
 
 ul#colorsList {
     padding: 1em;
@@ -158,16 +150,13 @@ ul#colorsList li {
     font-size: 1.3em;
 }
 
-#brandTagline {
-    font-size: 1.3em;
-}
-
 #couriernew {
     font-family: 'Courier New';
 }
 
 #monospace {
     font-family: monospace;
+    font-size: 1.2em;
 }
 
 #colorsList {
@@ -237,6 +226,7 @@ div#loopColumns {
 
 p#loopText {
     line-height: 2.5em;
+    text-align: center;
 }
 
 
