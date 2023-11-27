@@ -9,9 +9,10 @@ body {
     font-size: 1.2em;
 }
 
-main div:first-of-type, ul#introList{
+main div:first-of-type,
+ul#introList {
     text-align: left;
-    margin: 3em 7em;
+    margin: 2em 12em;
 }
 
 h1,
@@ -59,7 +60,8 @@ a:hover {
 }
 
 header nav a:hover,
-#homeLogo img:hover {
+#homeLogo img:hover,
+footer a:hover {
     color: #B94527;
     border: solid #B94527;
     text-decoration: none;
@@ -87,7 +89,8 @@ header nav a:hover,
 
 /*-------------header and footer styles-------------*/
 header nav a,
-#homeLogo img {
+#homeLogo img,
+footer a {
     border: solid #795548;
     border-radius: 5em;
     background-color: #F8B45C;
@@ -115,18 +118,31 @@ header p:first-of-type {
     margin-right: 1em;
 }
 
-footer nav hr {
-    margin: 2em 5em;
+hr {
+    margin: 3em 18em;
     border: .15em solid #795548;
+    border-radius: 50%;
+}
+
+footer {
+    margin-bottom: 2em;
 }
 
 footer a {
     padding: 0em 2em;
+    font-weight: bold;
 }
 
 #validation_link_html,
 #validation_link_css {
     padding: 0 !important;
+    border: none;
+    background: none;
+}
+
+#validation_link_html img,
+#validation_link_css img {
+    vertical-align: -.3em;
 }
 
 /*-------------End header and footer styles-------------*/
@@ -135,6 +151,7 @@ figcaption.waterfallImg {
     font-style: italic;
     font-size: .9em;
 }
+
 /*-------------End introduction styles-------------*/
 /*-------------m2 brand styles-------------*/
 
@@ -229,6 +246,77 @@ p#loopText {
     text-align: center;
 }
 
-
-
 /*-------------End fizzbuzz styles-------------*/
+
+/*-------------media queries styles-------------*/
+@media screen and (max-width:700px) {
+    body {
+
+        width: 500px;
+    }
+
+    h2 {
+        margin: .5em 4em .4em;
+    }
+
+    hr {
+        margin: 3em 5em;
+    }
+
+    ul#colorsList {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    ul#colorsList li {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:1030px) {
+    fieldset p {
+        flex: 1 0 50%;
+    }
+
+    main div:first-of-type,
+    ul#introList {
+        margin: 2em 3em;
+    }
+
+    #couriernew,
+    #monospace {
+        margin: 0 1.5em;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    footer nav a {
+        line-height: 2em;
+    }
+
+    main div:first-of-type,
+    ul#introList {
+        margin: 2em 6em;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1920px) {
+    fieldset {
+        margin: 0 20em;
+    }
+}
+
+@media screen and (min-width:1921px) and (max-width:4000px) {
+    body {
+        max-width: 1800px;
+    }
+
+    fieldset {
+        margin-top: 1.5em;
+        margin: 0 20em;
+    }
+}
+
+/*-------------End media queries styles-------------*/
