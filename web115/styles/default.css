@@ -15,6 +15,10 @@ ul#introList {
     margin: 2em 12em;
 }
 
+nav ul li {
+    list-style: none;
+}
+
 h1,
 h2,
 #greeting,
