@@ -10,9 +10,12 @@ function getName() {
         /*assign html id:greeting equal to old greeting with additional input firstName, lastName*/
         document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
     }
-    else {
+    else if(middleInitial === '' && firstName !== '' || lastName !== '') {
         /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
         document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName;
+    }
+    else{
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons";
     };
 
     //Divsor Function
@@ -35,10 +38,10 @@ function getName() {
     //create loop to output text lines 1-140, use function checkDivision
     for (let counter = 1; counter <= counterLimit; counter++) {
         if (checkDivision(counter, firstDivisor) && checkDivision(counter, secondDivisor) && checkDivision(counter, thirdDivisor)) {
-            loopOutput += `<p> ${counter}. Brawl Crawl Loot</p>`;
+            loopOutput += `<p> ${counter}. ${firstOutput} ${secondOutput} ${thirdOutput}</p>`;
         }
         else if (checkDivision(counter, firstDivisor) && checkDivision(counter, secondDivisor)) {
-            loopOutput += `<p> ${counter}. Brawl Crawl</p>`;
+            loopOutput += `<p> ${counter}. ${firstOutput} ${secondOutput}</p>`;
         }
         else if (checkDivision(counter, firstDivisor)) {
             loopOutput += `<p> ${counter}. ${firstOutput}</p>`;
