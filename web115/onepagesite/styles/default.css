@@ -6,29 +6,61 @@ body {
     font-family: monospace;
     background-color: #e5c293;
     color: #393E41;
+    text-align: center;
     margin: 0 auto;
     min-width: 27em;
     max-width: 159em;
     font-size: 1.2em;
-    padding: 0;
-    overflow-x: hidden;
 }
 
-#h1Main {
-    margin: 1em auto .5em;
-    font-size: 2em;
+main div:first-of-type,
+ul#introList {
+    text-align: left;
+    margin: 2em 12em;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+#greeting,
+a:link {
     letter-spacing: .08em;
+}
+
+h1 {
+    margin: 1em auto 0em;
+    font-size: 2em;
+}
+
+h2 {
+    margin: .5em 8em .4em;
+    padding: .4em;
+    font-family: 'Courier New';
+    font-size: 1.3em;
+    background-color: #a17751;
+    color: #f8b45c;
+    text-shadow: .1em .1em .1em #393E41;
+    border: .07em #393E41 solid;
+    border-radius: 5em;
+}
+
+h3 {
+    font-size: 1.3em;
 }
 
 /*-------------nav styles-------------*/
 .navMenu {
     background-color: #e5c293;
     text-align: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
-header nav a {
+
+.navMenu ul a {
     width: 9em;
     font-weight: bold;
     display: inline-block;
@@ -39,7 +71,7 @@ header nav a {
     padding: .3em;
 }
 
-.navMenu li{
+.navMenu li {
     display: inline;
 }
 
@@ -49,6 +81,66 @@ ul {
 }
 
 /*-------------End nav styles-------------*/
+
+/*-------------header and footer styles-------------*/
+header nav a,
+#homeLogo img,
+footer a {
+    border: solid #795548;
+    border-radius: 5em;
+    background-color: #F8B45C;
+}
+
+header nav a {
+    width: 9em;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    margin: .5em .6em .5em;
+    padding: .3em;
+}
+
+header p:first-of-type {
+    margin-top: 0;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#homeLogo {
+    width: 5.4em;
+    padding: 0;
+    vertical-align: -.7em;
+    margin-right: 1em;
+}
+
+hr {
+    margin: 3em 18em;
+    border: .15em solid #795548;
+    border-radius: 50%;
+}
+
+footer {
+    margin-bottom: 2em;
+}
+
+footer a {
+    padding: 0em 2em;
+    font-weight: bold;
+}
+
+#validation_link_html,
+#validation_link_css {
+    padding: 0 !important;
+    border: none;
+    background: none;
+}
+
+#validation_link_html img,
+#validation_link_css img {
+    vertical-align: -.3em;
+}
+
+/*-------------End header and footer styles-------------*/
 
 /*-------------link styles-------------*/
 a:link {
@@ -66,27 +158,46 @@ a:hover {
     text-decoration-color: #393E41;
 }
 
-header nav a:hover {
+header nav a:hover,
+#homeLogo img:hover,
+footer a:hover {
     color: #B94527;
-    border: .22em solid #B94527;
+    border: solid #B94527;
     text-decoration: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fizzMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.fizzItems {
+    top: 3em;
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 222, 179);
+    border-radius: 1em;
+}
+
+.fizzMenu:hover .fizzItems {
+    display: block;
 }
 
 /*-------------End link styles-------------*/
 
 /*-------------section styles-------------*/
-.sectionsDiv{
-    margin-top: 100px;
+.sectionsDiv {
+    margin-top: 2em;
 }
 
 .section {
-    min-width: 100vw;
-    margin: 20em 0;
+    margin: 2em 0em 20em;
     padding: 0 5em;
     box-sizing: border-box;
     text-align: center;
     background-color: #f5f5f5;
-    scroll-margin-top: 20em;
+    scroll-margin-top: 15em;
 }
 
 .section h1 {
@@ -95,17 +206,21 @@ header nav a:hover {
 
 /*-------------End section styles-------------*/
 
-/*-------------footer styles-------------*/
-footer nav hr {
-    margin: 2em 5em;
-    border: .15em solid #795548;
-}
+@media screen and (max-width:557px) {
 
-footer{
-    text-align: center;
-}
+    .navMenu ul a,
+    header nav a {
+        margin: .1em;
+        font-size: .9em;
+    }
 
-footer a {
-    padding-right: 2em;
+    hr {
+        margin: 3em 5em;
+    }
+
+    footer a {
+        margin: 0em 1em 0;
+        font-size: .8em;
+        display: block;
+    }
 }
-/*-------------End footer styles-------------*/
