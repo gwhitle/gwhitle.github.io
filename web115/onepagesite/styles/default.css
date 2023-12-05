@@ -96,8 +96,12 @@ header nav a {
     font-weight: bold;
     font-size: 1em;
     display: inline-block;
-    margin: .5em .6em .5em;
     padding: .3em;
+}
+
+header nav a,
+.navMenu ul a {
+    margin: .5em .3em .5em;
 }
 
 header p:first-of-type {
@@ -160,7 +164,7 @@ a:hover {
 
 header nav a:hover,
 #homeLogo img:hover,
-footer a:hover {
+footer a:hover, .navMenu ul a:hover {
     color: #B94527;
     border: solid #B94527;
     text-decoration: none;
