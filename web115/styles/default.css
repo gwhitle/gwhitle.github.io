@@ -228,11 +228,11 @@ fieldset {
     border: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: .5em;
 }
 
 fieldset p {
-    margin-top: 1.5em;
+    margin-top: 0em;
     flex: 1 0 30%;
 }
 
@@ -241,13 +241,17 @@ div#loopColumns p:first-child {
 }
 
 div#loopColumns {
-    margin: 2em;
+    display:inline-block;
+    margin: 0 auto;
     column-count: 3;
+    line-height: 1.7em;
+    gap: 5em;
+    margin-left: 3em;
 }
 
 p#loopText {
-    line-height: 2.5em;
-    text-align: center;
+    text-align: left;
+    
 }
 
 /*-------------End fizzbuzz styles-------------*/
