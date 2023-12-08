@@ -6,15 +6,18 @@ function getName() {
 
 
     //Greeting if else
-    if(middleInitial !== ''){
+    if (middleInitial !== '') {
         /*assign html id:greeting equal to old greeting with additional input firstName, lastName*/
-        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName + "!";
     }
-    else{
-          /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
-    document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName;
+    else if (middleInitial === '' && firstName !== '' || lastName !== '') {
+        /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName + "!";
+    }
+    else {
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons";
     };
-  
+
     //create loop to output text lines
     //placeholder for loopOutput text from function
     let loopOutput = '';

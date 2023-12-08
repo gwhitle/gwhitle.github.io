@@ -8,11 +8,14 @@ function getName() {
     //Greeting if else
     if (middleInitial !== '') {
         /*assign html id:greeting equal to old greeting with additional input firstName, lastName*/
-        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName;
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + middleInitial + "." + " " + lastName + "!";
+    }
+    else if (middleInitial === '' && firstName !== '' || lastName !== '') {
+        /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName + "!";
     }
     else {
-        /*assign html id:greeting equal to old greeting with additional input firstName, middleInitial, lastName*/
-        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons," + " " + firstName + " " + lastName;
+        document.getElementById('greeting').innerHTML = "Welcome to Digital Dungeons";
     };
 
     //create loop to output text lines 1-140
