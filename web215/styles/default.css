@@ -1,0 +1,23 @@
+body {
+    margin: 100px;
+    font-family: Garamond;
+    color: #eee9e4;
+    background-color: #6F5E53;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+}
+/*----Link Styles----*/
+nav ul li{
+    list-style-type: none;
+}
+a{
+    text-underline-offset: .2em;
+}
+a:visited{
+    color:#eee9e4;
+}
+a:hover{
+    color:#ffc402;
+    text-shadow: 0.1em.1em #430F25;
+   /* color:#fd0d71;*/
+}
