@@ -6,19 +6,24 @@ body {
     font-size: 1.1em;
     letter-spacing: 0.05em;
 }
+
 /*----Link Styles----*/
-nav ul li{
+nav ul li {
     list-style-type: none;
+    display: inline;
 }
-a{
-    color:#eee9e4;
+
+a {
+    color: #eee9e4;
     text-underline-offset: .2em;
 }
-a:visited{
-    color:#eee9e4;
+
+a:visited {
+    color: #eee9e4;
 }
-a:hover{
-    color:#ffc402;
+
+a:hover {
+    color: #ffc402;
     text-shadow: 0.1em.1em #430F25;
-   /* color:#fd0d71;*/
+    /* color:#fd0d71;*/
 }
