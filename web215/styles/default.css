@@ -5,11 +5,9 @@
 }
 
 body {
-    margin: 100px;
-
+    margin: 0em 6.25em;
     color: #eee9e4;
     background-color: #6F5E53;
-    font-size: 1.1em;
     letter-spacing: 0.05em;
 }
 
@@ -17,24 +15,32 @@ h1,
 h2,
 h3 {
 
-    font-family: 'Palatino Linotype';
+    font-family: 'Junge';
     font-size: 2.2em;
+    color: #D1B2EA;
 }
 
-p {
+p,
+a {
     font-family: garamond;
+    font-size: 1.25em;
 }
 
 h1,
 h2,
 h3,
-p,
-ul {
-    padding-bottom: 1em;
+p {
+    padding: .5em 0em;
 }
 
 #iconLogo {
     vertical-align: middle;
+    margin-right: 1em;
+}
+
+hr {
+    background-color: #FFC402;
+    border: #FFC402 solid .1em;
 }
 
 /*----Link Styles----*/
@@ -53,7 +59,84 @@ a:visited {
 }
 
 a:hover {
-    color: #ffc402;
+    color: #FFEC44;
     text-shadow: 0.1em.1em #430F25;
     /* color:#fd0d71;*/
 }
+
+/*----End Link Styles----*/
+
+/*----Introduction Styles----*/
+ul li ul li {
+    margin-left: 2em;
+}
+
+/*----End Introduction Styles----*/
+
+/*----Brand Styles----*/
+#brandColors {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#brandColors li {
+    width: 10em;
+    height: 10em;
+    margin: 0.55em;
+    border-radius: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    border: #59493E solid .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery img {
+    display: inline-block;
+}
+
+.darkText {
+    color: #59493E;
+}
+
+#brandColors li:nth-child(1) {
+    background-color: #FFEC44;
+}
+
+#brandColors li:nth-child(2) {
+    background-color: #FFC402;
+}
+
+#brandColors li:nth-child(3) {
+    background-color: #D1B2EA;
+}
+
+#brandColors li:nth-child(4) {
+    background-color: #EEE9E4;
+}
+
+#brandColors li:nth-child(5) {
+    background-color: #6F5E53;
+}
+
+/*----Brand Font Examples display----*/
+#junge p,
+#junge h4 {
+    font-family: 'Junge';
+}
+
+#garamond p,
+#garamond h4 {
+    font-family: garamond;
+}
+
+/*----End Brand Styles----*/
