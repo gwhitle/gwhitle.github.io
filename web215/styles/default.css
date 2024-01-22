@@ -1,10 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 100px;
-    font-family: Garamond;
+
     color: #eee9e4;
     background-color: #6F5E53;
     font-size: 1.1em;
     letter-spacing: 0.05em;
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: 'Palatino Linotype';
+    font-size: 2.2em;
+}
+
+p {
+    font-family: garamond;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    padding-bottom: 1em;
+}
+
+#iconLogo {
+    vertical-align: middle;
 }
 
 /*----Link Styles----*/
