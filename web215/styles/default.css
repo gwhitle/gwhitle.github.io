@@ -1,3 +1,4 @@
+/*----Basic Styles----*/
 * {
     margin: 0;
     padding: 0;
@@ -20,8 +21,7 @@ h3 {
     color: #D1B2EA;
 }
 
-p,
-a {
+p {
     font-family: garamond;
     font-size: 1.25em;
 }
@@ -41,21 +41,69 @@ p {
 hr {
     background-color: #FFC402;
     border: #FFC402 solid .1em;
+    margin-top: .4em;
 }
 
-/*----Link Styles----*/
+.darkText {
+    color: #59493E;
+}
+
+/*----End Basic Styles----*/
+
+/*----Nav Styles | Header and Footer----*/
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    border: #FFC402 solid .15em;
+    border-radius: 1.55em;
+    padding: 1em;
+}
+
+nav a {
+    font-size: 1.28em;
+}
+
+header p {
+    margin-top: -3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav ul li {
     list-style-type: none;
-    display: inline;
 }
 
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    margin: 0.25em 1em;
+}
+
+footer nav p {
+    width: 100%;
+    padding: .3em;
+    text-align: center;
+}
+
+/*----End Nav Styles | Header and Footer----*/
+
+/*----Link Styles----*/
 a {
-    color: #eee9e4;
+    color: #EEE9E4;
     text-underline-offset: .2em;
 }
 
 a:visited {
-    color: #eee9e4;
+    color: #EEE9E4;
 }
 
 a:hover {
@@ -70,7 +118,9 @@ a:hover {
 ul li ul li {
     margin-left: 2em;
 }
-
+figure{
+    float: right;
+}
 /*----End Introduction Styles----*/
 
 /*----Brand Styles----*/
@@ -104,10 +154,6 @@ ul li ul li {
     display: inline-block;
 }
 
-.darkText {
-    color: #59493E;
-}
-
 #brandColors li:nth-child(1) {
     background-color: #FFEC44;
 }
@@ -128,15 +174,52 @@ ul li ul li {
     background-color: #6F5E53;
 }
 
+#brandColors li:nth-child(6) {
+    background-color: #59493E;
+}
+
+.exampleText {
+    display: inline-block;
+    width: 49.77%;
+    text-align: center;
+    border: #FFC402 solid .2em;
+}
+
+.exampleText p {
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+}
+
+div .exampleText:first-of-type {
+    margin-top: 1em;
+    background-color: #6F5E53;
+}
+
+div .exampleText:nth-of-type(2) {
+    background-color: #6F5E53;
+    color: #D1B2EA;
+}
+
+div .exampleText:nth-of-type(3) {
+    background-color: #FFEC44;
+}
+
+div .exampleText:nth-of-type(4) {
+    background-color: #EEE9E4;
+}
+
 /*----Brand Font Examples display----*/
 #junge p,
 #junge h4 {
     font-family: 'Junge';
+    font-size: 1.3em;
 }
 
 #garamond p,
 #garamond h4 {
     font-family: garamond;
+    font-size: 1.4em;
 }
 
 /*----End Brand Styles----*/
