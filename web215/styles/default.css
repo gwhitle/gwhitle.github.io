@@ -29,7 +29,8 @@ p {
 h1,
 h2,
 h3,
-p {
+p,
+#formOutput li {
     padding: .5em 0em;
 }
 
@@ -118,9 +119,13 @@ a:hover {
 ul li ul li {
     margin-left: 2em;
 }
-figure{
+
+figure,
+#pictureContainer img,
+#pictureContainer figcaption {
     float: right;
 }
+
 /*----End Introduction Styles----*/
 
 /*----Brand Styles----*/
@@ -223,3 +228,44 @@ div .exampleText:nth-of-type(4) {
 }
 
 /*----End Brand Styles----*/
+
+/*----Introduction Form Styles----*/
+form {
+    font-size: 1.25em;
+}
+
+#formContainer input {
+    display: block;
+    margin-bottom: .3em;
+}
+
+input {
+    padding: 0;
+    font-size: .8em;
+    box-sizing: border-box;
+}
+
+#pictureContainer img {
+    max-width: 345px;
+    max-height: 345px;
+    margin: -3em 0em 0em 0em;
+}
+
+#pictureContainer figcaption {
+    margin: 18em -15.5em 0em 0em;
+    font-size: .8em;
+}
+
+#formOutput #resetButton {
+    margin-top: 20em;
+}
+
+#formOutput li {
+    font-family: garamond;
+}
+
+#resetButton {
+    margin-bottom: 1em;
+}
+
+/*----End Introduction Form Styles----*/

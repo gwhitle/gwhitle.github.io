@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+    <title>Gina W's Grunge Werewolf | WEB215 | Introduction</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
+    <script src="scripts/introduction_form.js" defer></script>
+    <!--     
+        Structure of HTML5 semantic layout swiped from PHP Fiddle and modified
+        to include validing code and validation buttons and some other tweaks
+
+        +===================================+
+        |               header              |
+        +===================================+
+        |                 nav               |
+        +=====================+=============+
+        |                     |             |
+        |       section       |    aside    |
+        |
+        +=====================+=============+    
+        |          footer/tagline           |
+        |         validation buttons        |
+        +===================================+
+        
+        The code from Internet
+        
+        http://phpfiddle.org        
+    -->
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <h2>Introduction Form</h2>
+    <h3 id="nameHeader">Gina W.</h3>
+    <form>
+        <div id="formContainer">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" value="Gina">
+
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="middleName" value="M" maxlength="1">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" value="W">
+
+            <label for="picture">Upload Picture:</label>
+            <input type="file" id="picture" name="picture">
+
+            <label for="figure_caption">Picture Caption:</label>
+            <input type="text" id="figure_caption" name="figure_caption" value="Avoiding the camera at a waterfall">
+
+            <label for="personal_background">Personal Background:</label>
+            <input type="text" id="personal_background" name="personal_background" value="Born in NC">
+
+            <label for="professional_background">Professional Background:</label>
+            <input type="text" id="professional_background" name="professional_background"
+                value="Former grocery stocker for 6+ years, currently working towards finishing my degree and pursuing new goals.">
+
+            <label for="academic_background">Academic Background:</label>
+            <input type="text" id="academic_background" name="academic_background"
+                value="Full Stack Development Student in progress.">
+
+            <label for="subject_background">Background in this Subject:</label>
+            <input type="text" id="subject_background" name="subject_background"
+                value="I have taken the intro WEB-110 class, as well as WEB-115.">
+
+            <label for="primary_platform">Primary Platform:</label>
+            <input type="text" id="primary_platform" name="primary_platform" value="Windows 10">
+
+            <label for="current_courses">Courses I'm in & Why:</label>
+            <input type="text" id="current_courses" name="current_courses"
+                value="WEB215 - Adv Web Markup and Scripting">
+
+            <label for="interesting_item">Funny/Interesting Item about Yourself:</label>
+            <input type="text" id="interesting_item" name="interesting_item"
+                value="I enjoy all types of fantasy world-building and storytelling. I also really enjoy crafting and DIY projects.">
+            <input type="button" id="submitButton" name="submitButton" value="Submit">
+        </div>
+        <div id="pictureContainer">
+            <figcaption id="figure_caption"></figcaption>
+        </div>
+        <ul id="formOutput"></ul>
+        <input type="reset" id="resetButton" name="resetButton" value="Reset">
+    </form>
+
+
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/include.js"></script>
+</body>
+
+</html>
