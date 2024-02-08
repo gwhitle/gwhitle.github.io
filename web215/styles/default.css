@@ -234,6 +234,16 @@ form {
     font-size: 1.25em;
 }
 
+label,
+input {
+    display: flex;
+    padding: .125em;
+}
+
+#courseInputsContainer {
+    margin-left: 7.4em;
+}
+
 #formContainer input {
     display: block;
     margin-bottom: .3em;
