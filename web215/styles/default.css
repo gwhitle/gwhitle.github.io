@@ -242,7 +242,7 @@ form {
 input {
     padding: 0;
     font-size: .8em;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 #pictureContainer img {
@@ -266,6 +266,12 @@ input {
 
 #resetButton {
     margin-bottom: 1em;
+}
+
+.extraButtons {
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*----End Introduction Form Styles----*/
