@@ -12,6 +12,17 @@ body {
     letter-spacing: 0.05em;
 }
 
+main {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
 h1,
 h2,
 h3 {
@@ -80,6 +91,10 @@ nav ul li {
     list-style-type: none;
 }
 
+footer {
+    text-align: center;
+}
+
 footer nav {
     display: flex;
     justify-content: center;
@@ -98,9 +113,18 @@ footer nav p {
 /*----End Nav Styles | Header and Footer----*/
 
 /*----Link Styles----*/
-a {
+a,
+nav a {
     color: #EEE9E4;
+}
+
+a {
     text-underline-offset: .2em;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:visited {
@@ -185,7 +209,7 @@ figure,
 
 .exampleText {
     display: inline-block;
-    width: 49.77%;
+    width: 49.5%;
     text-align: center;
     border: #FFC402 solid .2em;
 }
@@ -253,6 +277,7 @@ input {
     padding: 0;
     font-size: .8em;
     box-sizing: content-box;
+
 }
 
 #pictureContainer img {
