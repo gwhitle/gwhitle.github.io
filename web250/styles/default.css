@@ -32,11 +32,35 @@ p {
     margin-bottom: 1em;
 }
 
+h2 {
+    color: #bcd5af;
+    text-align: center;
+    text-shadow:
+        1.5px 1.5px 0 #000,
+        -1.5px -1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000;
+}
+
+hr {
+    height: 1em;
+}
+
+h2,
+hr {
+    border: .07em #321b2a solid;
+    border-radius: 5em;
+    background-image: url('/web250/images/side.png');
+    background-position: 180%;
+    background-size: cover;
+}
+
 a,
 a:visited {
     color: #38940a;
     text-decoration-color: #1C390D;
     text-underline-offset: .2em;
+    font-size: 1.15em;
 }
 
 a:hover {
@@ -46,15 +70,14 @@ a:hover {
 
 /*----End of Base Styles----*/
 
-/*----Header/Nav Styles----*/
-header>nav>ul {
+/*----Header/Footer Nav Styles----*/
+header>nav>ul,
+footer>nav {
     display: flex;
     justify-content: space-between;
     padding: .5em;
     list-style-type: none;
-    font-size: 1.1em;
     padding-bottom: 1em;
-
 }
 
 #iconLogo {
@@ -63,10 +86,29 @@ header>nav>ul {
     margin-right: 7.3%;
 }
 
+footer {
+    text-align: center;
+}
+
 /*----End of Header/Nav Styles----*/
+
 /*----Tagline Styles----*/
 #tagline {
     font-style: italic;
     margin-left: 20.3%;
-    margin-bottom: .3em;
+    margin-bottom: 1%;
 }
+
+/*----End of Tagline Styles----*/
+
+/*----Introduction Styles----*/
+figure {
+    float: right;
+    margin-left: 2%;
+}
+
+ul li ul li {
+    margin-left: 5%;
+}
+
+/*----End of Introduction Styles----*/
