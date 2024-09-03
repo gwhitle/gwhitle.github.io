@@ -164,6 +164,11 @@ ul li ul li {
     background-color: #321b2a;
 }
 
+.rectangle {
+    background-color: #764382;
+    height: 10em;
+}
+
 /*----Brand Fonts----*/
 #garamond {
     font-family: garamond;
