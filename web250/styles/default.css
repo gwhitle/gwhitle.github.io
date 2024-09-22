@@ -46,7 +46,7 @@ h2 {
         -1.5px 1.5px 0 #000;
     border: .07em #321b2a solid;
     border-radius: 5em;
-    background-image: url('/web250/images/side.png');
+    background-image: url('../images/side.png');
     background-position: 180%;
     background-size: cover;
 }
@@ -61,7 +61,7 @@ hr {
     height: 1em;
     border: .07em #321b2a solid;
     border-radius: 5em;
-    background-image: url('/web250/images/side.png');
+    background-image: url('../images/side.png');
     background-position: 180%;
     background-size: cover;
 }
