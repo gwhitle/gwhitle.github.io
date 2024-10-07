@@ -107,7 +107,7 @@ footer {
 /*----End of Header/Nav Styles----*/
 
 /*----Tagline Styles----*/
-#tagline {
+.tag_line {
     font-style: italic;
     text-align: center;
 }
