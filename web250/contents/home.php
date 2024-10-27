@@ -9,6 +9,6 @@
                 target="_blank">Static Page</a></p>
         <p>Super Duper Paratrooper - <a href="/multipage_sites/superduper_php/index.php"
                 target="_blank">PHP Page</a></p>
-        <p>WEB250 - <a href="https://gwhitle.github.io/web250/old_index.html" target="_blank">HTML Pages</a></p>
+        <p>WEB250 - <a href="https://gwhitle.github.io/web250/index.html" target="_blank">HTML Pages</a></p>
         <hr>
     </main>
