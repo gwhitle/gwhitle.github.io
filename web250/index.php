@@ -6,6 +6,7 @@
     <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
     <title>Gina W's Grim Wyvern | WEB250 | Home</title>
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
     <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -13,12 +14,12 @@
     <?php include 'contents/header.php'; ?>
 
     <?php
-	$page = $_GET["page"] ?? 'home.php';
+	$page = $_GET["page"] ?? 'home';
 	//echo ("You picked the page: " . $page); 
 	
 
     // Define allowed pages
-    $allowedPages = ['contents/home.php', 'contents/introduction.php', 'contents/contract.php', 'contents/brand.php'];
+    $allowedPages = ['home', 'introduction', 'contract', 'brand'];
 
     // Check if the requested page is allowed
     if (in_array($page, $allowedPages)) {

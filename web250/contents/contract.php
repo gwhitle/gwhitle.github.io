@@ -1,4 +1,4 @@
-    <main class="container">
+    <main>
         <h2>Contract</h2>
 
         <p>I, <a href="?page=contents/introduction.php">Gina M. Whitley</a> agree to abide by the terms of the course contract in my

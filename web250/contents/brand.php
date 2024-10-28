@@ -1,4 +1,4 @@
-    <main class="container">
+    <main>
         <h2>The Wyvern’s Hoard - Brand Guide</h2>
         <div>
             <p>The Wyvern's Hoard invites fantasy enthusiasts and curious seekers to explore a realm filled with magical

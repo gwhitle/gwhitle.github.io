@@ -1,4 +1,4 @@
-        <main class="container">
+        <main>
         <h2>Introduction</h2>
         <figure>
             <img src="./images/small_gatthewaterfall.jpg" alt="g at a waterfall">
