@@ -1,7 +1,7 @@
     <main>
         <h2>Contract</h2>
 
-        <p>I, <a href="?page=contents/introduction.php">Gina M. Whitley</a> agree to abide by the terms of the course contract in my
+        <p>I, <a href="?p=introduction.php">Gina M. Whitley</a> agree to abide by the terms of the course contract in my
             Fall 2024, WEB250-N801, Database Driven Websites class with my instructor, Professor D.I. von Briesen.</p>
 
         <p>I understand that all work that I do on publicly available online tools will be available to the world, and

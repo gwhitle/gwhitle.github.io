@@ -14,7 +14,7 @@
     <?php include 'contents/header.php'; ?>
 
     <?php
-	$page = $_GET["page"] ?? 'home';
+	$page = $_GET["p"] ?? 'home';
 	//echo ("You picked the page: " . $page); 
 	
 
@@ -23,9 +23,9 @@
 
     // Check if the requested page is allowed
     if (in_array($page, $allowedPages)) {
-        include($page);
+        include('contents/' . $page . '.php');
     } else {
-        include('contents/home.php'); // Load default page if not allowed
+        include('home.php'); // Load default page if not allowed
     }
     ?>
 
