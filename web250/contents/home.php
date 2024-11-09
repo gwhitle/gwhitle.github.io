@@ -5,10 +5,11 @@
         <p>You can explore my work from the navigation bar above, or jump right to my introduction by <a
                 href="?p=introduction">clicking this
                 link</a></p>
-        <p>Super Duper Paratrooper - <a href="/multipage_sites/superduper_static/index.htm"
-                target="_blank">Static Page</a></p>
-        <p>Super Duper Paratrooper - <a href="/multipage_sites/superduper_php/index.php"
-                target="_blank">PHP Page</a></p>
-        <p>WEB250 - <a href="https://gwhitle.github.io/web250/index.html" target="_blank">HTML Pages</a></p>
+        <ul>
+        <li>Super Duper Paratrooper - <a href="/multipage_sites/superduper_static/index.htm"
+                    target="_blank">Static Page</a></li>
+        <li>Super Duper Paratrooper - <a href="/multipage_sites/superduper_php/index.php"
+                    target="_blank">PHP Page</a></li>
+        </ul>
         <hr>
     </main>
