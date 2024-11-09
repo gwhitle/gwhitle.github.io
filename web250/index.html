@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
-    <title>Gina W's Grim Wyvern | WEB250 | Home</title>
+    <title>Gina W's Grim Wyvern | Home</title>
     <link rel="stylesheet" href="styles/default.css">
     <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
     <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>

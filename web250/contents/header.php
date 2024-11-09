@@ -1,5 +1,5 @@
 <header>
-    <h1><a href="?p=home"><img src="images/icon.svg" id="iconlogo" alt="iconlogo"></a>Gina W's Grim Wyvern | WEB250
+    <h1><a href="?p=home"><img src="images/icon.svg" id="iconlogo" alt="iconlogo"></a>Gina W's Grim Wyvern 
     </h1>
     <p id="tagline">The Wyvern's Hoard: A Shop of Wonders and Enchanted Curiosities</p>
     <nav>
