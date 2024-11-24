@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitley Inc.</title>
+    <script
+      src="https://lint.page/kit/880bd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /*----Base Styles----*/
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Tahoma;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+      }
+
+      /*----Card Styles----*/
+      .card {
+        width: 400px;
+        height: 225px;
+        box-sizing:content-box;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        position: relative;
+        transition: all 0.3s ease;
+        border: 3px solid #30362f;
+        background: linear-gradient(135deg, #d8f2db, #ffffff);
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+      }
+
+      .card .name {
+        font-size: 32px;
+        font-weight: bold;
+        color: #30362f;
+      }
+
+      .card .logo {
+        float: right;
+        margin-top: -1em;
+      }
+
+      .card .slogan {
+        font-size: 18px;
+        font-style: italic;
+        color: #555;
+        margin: 15px 0px 25px;
+      }
+
+      .card .contactinfo {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #444;
+      }
+
+      .card .contactinfo .label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Business Card Section -->
+    <div class="card">
+      <div class="name">Whitley Inc.</div>
+      <div class="logo">
+        <img src="images/whitleyLogo.png" id="iconlogo" alt="iconLogo">
+      </div>
+      <div class="slogan">Your Partner in Digital Design</div>
+      <div class="contactinfo">
+        <div class="label">Gina Whitley</div>
+        <div><span class="label">Phone:</span> (777) 666-5544</div>
+        <div><span class="label">Email:</span> contact@whitsinc.com</div>
+        <div>
+          <span class="label">Address:</span> 123 Ethernet Lane, Git City, AZ
+          01010
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
