@@ -10,5 +10,7 @@
         
 
     </nav>
-    <p>Page Designed by WhitsGits</p>
+    <p>
+    Page Designed by <a href="businesscard.html" target="_blank">Whitley Inc.</a>
+  </p>
 </footer>
