@@ -100,6 +100,10 @@ footer > nav {
   list-style-type: none;
 }
 
+header > nav > ul > li{
+  margin: .3em 1em;
+}
+
 #iconlogo {
   vertical-align: middle;
   padding-right: 1%;
@@ -218,3 +222,18 @@ margin-top: 1em;
 }
 
 /*-------------End fizzbuzz styles-------------*/
+
+/*-------------introduction form styles-------------*/
+.form-visible{
+  columns: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+#generatedProfile img {
+  max-width: 345px;
+  max-height: 345px;
+}
+/*-------------End introduction form styles-------------*/

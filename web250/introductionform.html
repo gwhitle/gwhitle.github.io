@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+    <title>Gina W's Grim Wyvern | Fizz Buzz Bang</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2 id="formheading">Fill out your information</h2>
+        <form id="profileform" class="form-visible">
+          <label for="figure-img">Choose an Image:</label>
+          <input
+            type="file"
+            id="figure-img"
+            name="figure-img"
+            accept="image/*"><br><br>
+    
+          <label for="figure-caption">Figure Caption:</label>
+          <input
+            type="text"
+            id="figure-caption"
+            name="figure-caption"
+            value="Avoiding the camera at a waterfall"><br><br>
+    
+          <label for="personal-background">Personal Background:</label>
+          <input
+            type="text"
+            id="personal-background"
+            name="personal-background"
+            value="Born in NC."><br><br>
+    
+          <label for="professional-background">Professional Background:</label>
+          <input
+            type="text"
+            id="professional-background"
+            name="professional-background"
+            value="Former retail employee."><br><br>
+    
+          <label for="academic-background">Academic Background:</label>
+          <input
+            type="text"
+            id="academic-background"
+            name="academic-background"
+            value="Currently working towards finishing my degree in Full Stack Programming."><br><br>
+    
+          <label for="subject-background">Background in this Subject:</label>
+          <input
+            type="text"
+            id="subject-background"
+            name="subject-background"
+            value="I have taken the intro WEB110 class, as well as WEB115 and WEB250."><br><br>
+    
+          <label for="primary-platform">Primary Computer Platform:</label>
+          <input
+            type="text"
+            id="primary-platform"
+            name="primary-platform"
+            value="Windows"><br><br>
+    
+          <label for="funny-item">Funny/Interesting Item about Yourself:</label>
+          <input
+            type="text"
+            id="funny-item"
+            name="funny-item"
+            value="I enjoy all types of fantasy world-building and storytelling. I also really enjoy crafting and DIY projects."><br><br>
+    
+          <label>Courses I'm in &amp; Why:</label><br>
+          <textarea id="courses" name="courses" rows="3" cols="40">
+    I'm taking these courses as alternative options for my degree, I'm still excited to learn from both of them!</textarea
+          ><br><br>
+    
+          <label>Course List:</label>
+          <div id="course-list">
+            <div class="course-item">
+              <input
+                type="text"
+                name="course-name[]"
+                value="WEB250 - Database Driven Websites">
+              <input
+                type="text"
+                name="course-info[]"
+                value="alternative option for my degree">
+              <button type="button" class="remove-course">Remove</button>
+            </div>
+            <div class="course-item">
+              <input
+                type="text"
+                name="course-name[]"
+                value="CSC221 - Advanced Python Programming">
+              <input
+                type="text"
+                name="course-info[]"
+                value="alternative option for my degree">
+              <button type="button" class="remove-course">Remove</button>
+            </div>
+          </div>
+          <button type="button" id="add-course">Add another course</button
+          ><br><br>
+    
+          <input type="submit" value="Generate HTML">
+        </form>
+        <div id="generatedprofile" class="hidden"></div>
+        <button id="resetbutton" class="hidden">Reset to Form</button>
+        <hr>
+        <script src="scripts/introductionform.js" defer></script>
+
+    </main>
+<div data-include="components/footer.html"></div>
+<script src="scripts/include.js"></script>
+
+</body>
+
+</html>
