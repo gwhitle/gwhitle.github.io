@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+    <title>Gina W's Grim Wyvern | Course Contract</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+    <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>FizzBuzzBang</h2>
+        <h3 id="greeting">Welcome to The Wyvern's Hoard</h3>
+        <form>
+            <fieldset>
+    <div class="groups">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter your first name here" value="User">
+    </div>
+    <div class="groups">
+                    <label for="middleinitial">Middle Initial:</label>
+                    <input type="text" id="middleinitial" name="middleinitial"
+                        placeholder="Enter your middle initial here" maxlength="1">
+    </div>
+    <div class="groups">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter your last name here" value="Name">
+    </div>
+    <div class="groups">
+                    <label for="firstdivisor">First Divisor:</label>
+                    <input type="number" id="firstdivisor" name="firstdivisor" value="3">
+    </div>
+    <div class="groups">
+                    <label for="seconddivisor">Second Divisor:</label>
+                    <input type="number" id="seconddivisor" name="seconddivisor" value="5">
+    </div>
+    <div class="groups">
+                    <label for="thirddivisor">Third Divisor:</label>
+                    <input type="number" id="thirddivisor" name="thirddivisor" value="7">
+    </div>
+    <div class="groups">
+                    <label for="firstdivisorOutput">First Output:</label>
+                    <input type="text" id="firstdivisoroutput" name="firstdivisoroutput" value="Fizz">
+    </div>
+    <div class="groups">
+                    <label for="seconddivisoroutput">Second Output:</label>
+                    <input type="text" id="seconddivisoroutput" name="seconddivisoroutput" value="Buzz">
+    </div>
+    <div class="groups">
+                    <label for="thirddivisoroutput">Third Output:</label>
+                    <input type="text" id="thirddivisoroutput" name="thirddivisoroutput" value="Bang">
+    </div>
+    <div class="groups">
+                    <label for="counttotal">Count to:</label>
+                    <input type="number" id="counttotal" name="counttotal" value="125">
+    </div>
+    <div class="groups">
+                    <label for="defaultoutput">Default Output:</label>
+                    <input type="text" id="defaultoutput" name="defaultoutput" value="">
+    </div>
+    <div class="groups">
+                    <input type="button" id="submitbutton" name="submitbutton" value="Submit">
+                    <input type="reset" id="resetbutton" name="resetbutton" value="Reset">
+    </div>
+            </fieldset>
+        </form>
+        <div id="loopcolumns">
+            <p id="looptext"></p>
+        </div>
+    <script src="scripts/fizzbuzzbang.js" defer></script>
+    </main>
+<div data-include="components/footer.html"></div>
+<script src="scripts/include.js"></script>
+
+</body>
+
+</html>

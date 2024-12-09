@@ -182,3 +182,39 @@ ul li ul li {
 }
 
 /*----End Brand Styles----*/
+
+/*-------------Fizzbuzz styles-------------*/
+form{
+  margin: 0 3em;
+}
+fieldset{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2em;
+  border: none;
+}
+
+.groups{
+  margin-top: 0em;
+  flex: 1 0 30%;
+  font-size: 1em;
+  
+}
+
+#loopcolumns p:first-child {
+  margin: 0;
+}
+
+#loopcolumns {
+    display: block;
+    margin: 0 5em;
+    column-count: 3;
+    line-height: 1.7em;
+    gap: 5em;
+}
+
+#submitbutton, #resetbutton{
+margin-top: 1em;
+}
+
+/*-------------End fizzbuzz styles-------------*/
